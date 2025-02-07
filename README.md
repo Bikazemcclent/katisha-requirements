@@ -127,45 +127,54 @@ This structured method ensures **a complete, error-free requirements document** 
 
 The key difference between User Flow Diagrams and Sequence Diagrams is in their purpose, level of detail, and focus:
 
-User Flow Diagrams (UFD)
-🔹 Focus: The step-by-step process a user follows to complete a task.
-🔹 Purpose: Helps visualize how users interact with the system at a high level.
-🔹 Representation: Flowcharts (arrows, decision points, actions).
-🔹 Best Used For:
+### **User Flow Diagrams (UFD)**
+🔹 **Focus:** The step-by-step process a user follows to complete a task.
+🔹 **Purpose:** Helps visualize how users interact with the system at a high level.
+🔹 **Representation:** Flowcharts (arrows, decision points, actions).
+🔹 **Best Used For:**
+   - Mapping out the user experience (UX).
+   - Showing decision-making paths (e.g., what happens if a user enters wrong data).
+   - Identifying bottlenecks or missing steps in a workflow.
 
-Mapping out the user experience (UX).
-Showing decision-making paths (e.g., what happens if a user enters wrong data).
-Identifying bottlenecks or missing steps in a workflow.
-📌 Example:
-A User Flow Diagram for “Booking a Bus Ticket” might look like:
+📌 **Example:**  
+A **User Flow Diagram for “Booking a Bus Ticket”** might look like:
 1️⃣ User visits website → 2️⃣ Selects a destination → 3️⃣ Chooses a seat → 4️⃣ Enters passenger details → 5️⃣ Confirms payment → 6️⃣ Gets booking confirmation.
 
-It focuses on the user's journey rather than the internal system behavior.
+It **focuses on the user's journey** rather than the internal system behavior.
 
-Sequence Diagrams (SD)
-🔹 Focus: The time-ordered interactions between different system components.
-🔹 Purpose: Shows how the system handles requests, focusing on communication between the user, UI, backend services, and databases.
-🔹 Representation: UML sequence diagram (actors, messages, lifelines).
-🔹 Best Used For:
+---
 
-Understanding backend processing.
-Designing API calls, data flow, and component interactions.
-Ensuring systems communicate correctly.
-📌 Example:
-A Sequence Diagram for “Processing a Bus Ticket Payment” might look like:
+### **Sequence Diagrams (SD)**
+🔹 **Focus:** The time-ordered interactions between different system components.
+🔹 **Purpose:** Shows how the system handles requests, focusing on communication between the user, UI, backend services, and databases.
+🔹 **Representation:** UML sequence diagram (actors, messages, lifelines).
+🔹 **Best Used For:**
+   - Understanding backend processing.
+   - Designing API calls, data flow, and component interactions.
+   - Ensuring systems communicate correctly.
+
+📌 **Example:**  
+A **Sequence Diagram for “Processing a Bus Ticket Payment”** might look like:
 1️⃣ User submits payment request → 2️⃣ UI sends request to Payment Gateway → 3️⃣ Payment Gateway verifies transaction → 4️⃣ Database updates ticket status → 5️⃣ System confirms success to user.
 
-It focuses on system behavior and interactions, not just user steps.
+It **focuses on system behavior and interactions**, not just user steps.
 
-Key Difference Summary
-Feature	User Flow Diagram	Sequence Diagram
-Focus	User journey & decisions	System interactions & processes
-Viewpoint	User perspective	System perspective
-Representation	Flowcharts	UML sequence diagrams
-Purpose	Ensure smooth UX	Ensure correct system logic
-Example Use Case	How a user buys a ticket	How the system processes payment
-Both diagrams are crucial:
-✅ User Flow Diagrams ensure a smooth, user-friendly experience.
-✅ Sequence Diagrams guarantee that the backend logic works correctly.
+---
+
+### **Key Difference Summary**
+
+| **Feature**  | **User Flow Diagram** | **Sequence Diagram** |
+|-------------|------------------|------------------|
+| **Focus** | User journey & decisions | System interactions & processes |
+| **Viewpoint** | User perspective | System perspective |
+| **Representation** | Flowcharts | UML sequence diagrams |
+| **Purpose** | Ensure smooth UX | Ensure correct system logic |
+| **Example Use Case** | How a user buys a ticket | How the system processes payment |
+
+Both diagrams are crucial:  
+✅ **User Flow Diagrams** ensure a smooth, user-friendly **experience**.  
+✅ **Sequence Diagrams** guarantee that the **backend logic works correctly**.  
 
 Would you like me to create visual examples of these for clarity? 🚀
+
+
